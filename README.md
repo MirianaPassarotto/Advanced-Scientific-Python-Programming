@@ -3,7 +3,7 @@
 This project focuses on pre-processing, cleaning, and analyzing machine sounds. The goal is to use data from a lawnmower or another machine, depending on the available data.
 
 ## Project Goals
-- Collect and process machine sound data.
+- Process machine sound data.
 - Clean and filter noise from audio recordings.
 - Extract important features for further analysis.
 
