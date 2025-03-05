@@ -1,4 +1,4 @@
-# Advanced Scientific Python Programming
+# Advanced Scientific Python Programming Project
 
 This project focuses on pre-processing, cleaning, and analyzing machine sounds. The goal is to use data from a lawnmower or another machine, depending on the available data.
 
