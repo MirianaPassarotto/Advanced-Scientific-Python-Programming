@@ -1,1 +1,1 @@
-Project and Exercises from the course Advanced Scientific Programming with Python
+Project and Exercises for the course Advanced Scientific Programming with Python
