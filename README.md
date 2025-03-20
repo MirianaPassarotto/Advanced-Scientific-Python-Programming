@@ -1,14 +1,19 @@
-# Advanced Scientific Python Programming Project
+# environmental sound classification with CNNs  
 
-This project focuses on pre-processing, cleaning, and analyzing machine sounds. The goal is to use data from a lawnmower or another machine, depending on the available data.
+this project processes and classifies **environmental sounds** using a **cnn**. it extracts features from audio and trains a deep learning model to recognize different sound categories.  
 
-## Project Goals
-- Process machine sound data.
-- Clean and filter noise from audio recordings.
-- Extract important features for further analysis.
+## dataset  
+uses the **esc-50 dataset** ([link](https://github.com/karolpiczak/ESC-50)) with **50 sound classes** like animals, nature, human, and urban sounds. each clip is **5 seconds, 44.1 kHz**.  
 
-## Methods & Tools
-- **Audio Processing:** Noise reduction, filtering, and Fourier Transform.
-- **Feature Extraction:** Spectrograms, MFCCs, and statistical analysis.
+## methods  
+- **audio processing**: noise reduction, mel spectrogram extraction  
+- **model**: cnn with batch normalization, adaptive pooling  
+- **training**: cross-entropy loss, adam optimizer  
+- **evaluation**: confusion matrix, per-class accuracy  
 
-Some of the methods and tools provided in the course "Advanced Scientific Python Programming" will be used to implement and improve the project. The dataset will be sourced online, and the project may evolve based on available data and findings.
+## installation  
+clone the repository and install dependencies  
+```bash
+git clone https://github.com/yourusername/your-repo-name.git
+cd your-repo-name
+pip install torch librosa numpy pandas scikit-learn seaborn matplotlib noisereduce
