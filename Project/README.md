@@ -14,6 +14,4 @@ uses the **esc-50 dataset** ([link](https://github.com/karolpiczak/ESC-50)) with
 ## installation  
 clone the repository and install dependencies  
 ```bash
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
 pip install torch librosa numpy pandas scikit-learn seaborn matplotlib noisereduce
